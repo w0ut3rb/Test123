@@ -1,0 +1,701 @@
+.clear {
+    clear: both;
+}
+
+.header1 {
+    background-image: url(../img/header.png);
+    background-size: 100% 212px;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+}
+
+.logo {
+    float: left;
+    margin-left: 80px;
+}
+
+input {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    width: 222px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+ul {
+    float: right;
+    margin-top: 70px;
+}
+
+li {
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-style: italic;
+    color: #38B764;
+    display: inline;
+    text-decoration: none;
+}
+
+a {
+    color: #38B764;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.n-c {
+    width: 100%;
+}
+
+.hottopics {
+    width: 1175px;
+    height: 440px;
+    margin-top: 64px;
+}
+
+.clash {
+    float: left;
+    width: 650px;
+    height: 440px;
+}
+
+.titans {
+    float: left;
+    width: 450px;
+    height: 440px;
+    margin-left: 65px;
+}
+
+.clashp {
+    margin-top: 100px;
+    line-height: 40px;
+    text-align: left;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.buttonpc {
+    margin-top: 25px;
+}
+
+.yellow {
+    color: #FFCD75;
+}
+
+.middle {
+    height: 280px;
+    margin-top: 75px;
+}
+
+.news {
+    margin-top: 200px;
+}
+
+.newsimgr1 {
+    float: right;
+    width: 375px;
+    height: 204px;
+    border: 5px solid #38B764;
+    transition: ease-in-out 1s;
+}
+
+.newsimgr1:hover {
+    transform: scale(1.1);
+    border: 0 solid;
+    box-shadow: 5px 5px 10px #38B764;
+}
+
+.newsimgr2 {
+    float: right;
+    width: 375px;
+    height: 204px;
+    border: 5px solid #38B764;
+    margin-top: -220px;
+    transition: ease-in-out 1s;
+}
+
+.newsimgr2:hover {
+    transform: scale(1.1);
+    border: 0 solid;
+    box-shadow: 5px 5px 10px #38B764;
+}
+
+.newsimgl {
+    float: left;
+    width: 375px;
+    height: 204px;
+    border: 5px solid #38B764;
+    margin-top: 20px;
+    transition: ease-in-out 1s;
+}
+
+.newsimgl:hover {
+    transform: scale(1.1);
+    border: 0 solid;
+    box-shadow: 5px 5px 10px #38B764;
+}
+
+.masterpiece {
+    float: left;
+    text-align: right;
+    width: 815px;
+    margin-left: 0px;
+}
+
+.pokemon {
+    float: right;
+    margin-top: -210px;
+    text-align: left;
+    width: 815px;
+    margin-left: 400px;
+}
+
+.pc {
+    float: left;
+    text-align: right;
+    width: 815px;
+    margin-top: 20px;
+}
+
+.right {
+    text-align: right;
+    width: 815px;
+    margin-left: 0px;
+    margin-bottom: 23px;
+}
+
+.left {
+    text-align: left;
+    width: 815px;
+    margin-left: 400px;
+    margin-bottom: 23px;
+}
+
+.footer {
+    background-image: url(../img/footer.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-bottom: -2px;
+}
+
+.improve {
+    width: 180px;
+    text-align: left;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-style: italic;
+    text-decoration-line: underline;
+    font-size: 18px;
+    margin-top: -70px;
+    margin-left: 1300px;
+}
+
+.facebook {
+    margin-top: 200px;
+    margin-left: 1300px;
+    width: 32px;
+    height: 32px;
+}
+
+.twitter {
+    width: 40px;
+    height: 32px;
+}
+
+.insta {
+    width: 50px;
+    height: 40px;
+}
+
+.twitch {
+    width: 32px;
+    height: 32px;
+}
+
+.help {
+    float: right;
+    padding-top: 60px;
+    padding-right: 450px;
+}
+
+.pnews {
+    line-height: 30px;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.l1 {
+    float: left;
+    margin-top: -170px;
+}
+
+.r {
+    float: right;
+    margin-top: -160px;
+}
+
+.l2 {
+    float: left;
+    margin-top: 20px;
+}
+
+h4, h5 {
+    font-size: 44px;
+    position: relative;
+    font-family: "Press Start 2P";
+}
+
+strong {
+    color: #EF7D57;
+}
+
+h2 {
+    position: relative;
+    top: -100px;
+    width: 500px;
+    font-family: "Montserrat";
+    font-size: 44px;
+    font-weight: 600;
+    font-style: italic;
+    color: #29366F;
+}
+
+h3 {
+    position: relative;
+    top: -165px;
+    left: 100px;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+    color: #FFCD75;
+    transition: ease-in-out 1s;
+}
+
+h3:hover {
+    transition: ease-in-out 1s;
+    transform: scale(1.05);
+}
+
+h4 {
+    color: #FFCD75;
+    line-height: 55px;
+}
+
+h5 {
+    color: #EF7D57;
+    top: 50px;
+    padding-bottom: 100px;
+}
+
+h6 {
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 800;
+    font-style: italic;
+    color: #29366F;
+}
+
+.darkyellow {
+    color: #e6b054;
+}
+
+.darkorange {
+    color: #d8643d;
+}
+
+.darkgreen {
+    color: #257179;
+}
+
+.black {
+    color: black;
+}
+
+.back {
+    position: absolute;
+    z-index: 0;
+    top: 100px;
+    left: 0px;
+}
+
+.front {
+    position: absolute;
+    z-index: 1;
+    top: 103px;
+    left: 3px;
+}
+
+.shadow {
+    width: 600px;
+    height: 100px;
+}
+
+.header2 {
+    background-image: url(../img/header2.png);
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.thestart {
+    width: 590px;
+}
+
+.triangle {
+    background-image: url(../img/triangle.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1620px;
+    margin-top: -100px;
+    z-index: -1;
+}
+
+.H {
+    font-family: "Montserrat";
+    font-size: 100px;
+    font-style: normal;
+    color: #257179;
+}
+
+.p1 {
+    margin-top: 200px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 35px;
+}
+
+.zelda {
+    position: absolute;
+    top: 550px;
+    right: 260px;
+}
+
+.marvin {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 35px;
+    width: 735px;
+    padding-top: -100px;
+    margin: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cutsceneimg {
+    background-image: url(../img/cutscene.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 2600px;
+    margin-top: 100px;
+}
+
+.hcutscene {
+    float: right;
+    margin-top: -2400px;
+}
+
+.ctop1 {
+    float: right;
+    margin-top: -2200px;
+}
+
+.ctop2 {
+    float: right;
+    margin-top: -2000px;
+}
+
+.cleft1 {
+    float: left;
+    margin-top: -1700px;
+}
+
+.cleft2 {
+    float: left;
+    margin-top: -1430px;
+}
+
+.cbottom1 {
+    float: right;
+    margin-top: -1100px;
+}
+
+.cbottom2 {
+    float: right;
+    margin-top: -700px;
+}
+
+.gamer {
+    float: right;
+    margin-top: -1700px;
+    height: 486px;
+    border-radius: 150px;
+}
+
+.subtitle {
+    font-family: "Press Start 2P";
+    font-size: 44px;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+.f-right {
+    float: right;
+    text-align: left;
+    width: 720px;
+    line-height: 35px;
+}
+
+.f-left {
+    float: left;
+    text-align: left;
+    width: 550px;
+    line-height: 35px;
+}
+
+.regular {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.semibold {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.bold {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.extrabold {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.italic {
+    font-family: "Montserrat";
+    font-style: italic;
+}
+
+.white {
+    color: white;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.spacing {
+    margin-bottom: 30px;
+}
+
+.pokeball {
+    background-image: url(../img/pokeball.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    height: 2250px;
+}
+
+.middle1 {
+    padding-top: 200px;
+    margin-left: 50%;
+    width: 1023px;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 auto;
+}
+
+.gamer2 {
+    margin-top: 350px;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.middle2 {
+    margin-top: 100px;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    width: 797px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.triangle1 {
+    background-image: url(../img/triangle1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1300px;
+    margin-top: 300px;
+}
+
+.emberglitch {
+    float: right;
+    margin-left: 500px;
+    width: 500px;
+    height: 500px;
+}
+
+.hstory {
+    padding-top: 100px;
+    width: 684px;
+}
+
+.pstory {
+    float: left;
+    margin-top: -450px;
+}
+
+.simon {
+    float: right;
+    margin-top: 690px;
+    width: 592px;
+    height: 444px;
+}
+
+.triangle2 {
+    background-image: url(../img/triangle2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1300px;
+    margin-top: -650px;
+}
+
+.trleft {
+    background-image: url(../img/testrunleft.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 556px;
+    width: 465px;
+    float: left;
+    margin-top: -400px;
+}
+
+.htest {
+    position: relative;
+    top: -200px;
+    margin-left: 480px;
+}
+
+.trright {
+    background-image: url(../img/testrunright.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 556px;
+    width: 465px;
+    float: right;
+    margin-top: -490px;
+}
+
+.rupee {
+    background-image: url(../img/testrun.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 2860px;
+    margin-top: 500px;
+}
+
+.rupeecentre {
+    width: 603px;
+    margin-top: 400px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.gamer3 {
+    width: 903;
+    height: 400px;
+    margin-left: -220px;
+    margin-top: 200px;
+    border: #A7F070 3px solid;
+    box-shadow: 5px 5px 10px #A7F070;
+}
+
+.divider {
+    margin-bottom: 50px;
+}
+
+.dividerimg {
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.endproductleft {
+    float: left;
+    margin-top: -170px;
+    width: 572px;
+    line-height: 35px;
+}
+
+.endproduct {
+    font-family: "Press Start 2P";
+    font-size: 44px;
+    font-style: normal;
+    line-height: 44px;
+    width: 500px;
+}
+
+.endzelda {
+    width: 572px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.endproductright {
+    float: right;
+    width: 613px;
+    margin-top: 70px;
+    line-height: 35px;
+}
+
+.footer2 {
+    background-image: url(../img/footer2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1400px;
+    margin-top: 500px;
+}
+
+.help2 {
+    float: right;
+    margin-top: 460px;
+    margin-right: 450px;
+}
+
+.contactinfo {
+    float: right;
+    margin-top: -220px;
+    margin-right: 10px;
+    height: 220px;
+}
+
+.links {
+    float: right;
+    margin-top: -170px;
+    margin-right: 300px;
+    height: 160px;
+}
