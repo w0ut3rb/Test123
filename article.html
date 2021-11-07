@@ -16,9 +16,13 @@
 </head>
 
 <body>
-    <header class="header2">
-        <a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+    <header>
+        <h1>
+            <a href="index.html"><img class="logo" src="img/logo.png" alt="logo"></a>
+        </h1>
+        <form action="searchbar">
         <input type="text" placeholder="Search">
+        </form>
         <nav>
             <ul>
                 <li><a href="index.html#news">News</a></li>
@@ -30,15 +34,15 @@
         <div class="clear"></div>
     </header>
     <main>
-        <div class="triangle n-c">
+        <div id="triangle">
             <div class="container">
-                <section class="thestart">
-                    <h4 class="shadow">
+                <section>
+                    <h2 class="shadow">
                         <div class="back darkyellow">The Making of <strong class="darkorange">a Masterpiece</strong>
                         </div>
                         <div class="front">The Making of <strong>a Masterpiece</strong></div>
-                    </h4>
-                    <p class="p1"><strong class="H">H</strong>et is 17 maart 2017, Marvin van Meegen is al ondertussen
+                    </h2>
+                    <p id="paragraph1"><strong>H</strong>et is 17 maart 2017, Marvin van Meegen is al ondertussen
                         27
                         uur wakker en hij gaat nog lang niet slapen! Waarom vraagt u? Nou, NieR:Automata, een nieuwe
                         open-world adventure game is zonet uitgekomen en Marvin kan nu al geen afscheid meer nemen. Hij
@@ -48,8 +52,8 @@
                         Marvin
                         zich nu heeft ziekgemeld voor school en werk?</p>
                 </section>
-                <img class="zelda" src="img/zelda.png" alt="zelda">
-                <p class="marvin">Marvin laat ons meerdere dingen zien hier, maar het belangrijkste wat we hieruit
+                <img src="img/zelda.png" alt="zelda">
+                <p id="marvin">Marvin laat ons meerdere dingen zien hier, maar het belangrijkste wat we hieruit
                     krijgen,
                     is dat meerdere aspecten samenkomen om een goed eindproduct te maken. Maar hoe zorgen deze aspecten
                     er
@@ -62,78 +66,76 @@
                     al deze onderdelen nou een masterpiece maken.</p>
             </div>
         </div>
-        <div class="cutsceneimg n-c"></div>
-        <div class="container">
-            <h6 class="subtitle white hcutscene">The First Cutscene</h6>
-            <div class="clear"></div>
-            <div class="f-right">
-                <p class="ctop1 bold italic white spacing">Elk verhaal begint bij de basics en hetzelfde geld voor
-                    ons
-                    masterpiece, bij het maken van een game komen multidisciplinaire teams kijken, maar
-                    multidisciplinariteit wat is dat eigenlijk?</p>
-                <div class="clear"></div>
-                <p class="ctop2 regular white spacing">Heel eenvoudig, multidisciplinariteit betekent dat
-                    verschillende
-                    disciplines samenkomen voor een gezamenlijk eindproduct. Maar wat betekent dit nou voor ons
-                    masterpiece? Onze games?</p>
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
-            <div class="f-left">
-                <p class="cleft1 semibold white spacing">De ontwikkeling van een goede gamer doorloopt exact
-                    dezelfde stappen als de ontwikkeling van elk goed design. Dit zijn de drie ontwerp niveaus,
-                    namelijk: Het artefact, de praxis en de betekenis (Kennisclips DR, Buchanan, 2021). Het artefact
-                    is het product zelf, in ons geval de game, dan moet je denken aan onderdelen als wat de
-                    eigenschappen van de game zijn. </p>
-                <div class="clear"></div>
-                <p class="cleft2 semibold white spacing">De praxis is hoe het product gebruikt wordt in de praktijk,
-                    dus
-                    hoe willen we dat onze game gespeeld wordt. De betekenis is hoe je wilt dat je product gezien
-                    wordt of welke link de consumenten eraan geven. Wij gebruiken de betekenis om te kijken wat de
-                    consument belangrijk vindt in een game om hierop de game te baseren.</p>
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
-            <img class="gamer f-right" src="img/2worlds7.JPG" alt="tunnel">
-            <div class="clear"></div>
-            <div class="f-right">
-                <p class="cbottom1 regular white spacing">Maar hoe ziet dit dan nou in een game uit? Het <a
-                        class="bold underline white" href="https://esfgameon.winstonwolfe.be/over-esf/">ESF</a> (Europees
-                    Sociaal Fonds) heeft hier een goed artikel voor
-                    dat gaat over de structuur van games. Volgens het ESF heeft een game twee onderdelen nodig,
-                    namelijk: <strong class="extrabold italic white">“Een game bestaat uit regels (rules) en
-                        mechanics. De regels van een spel zijn meestal voor een speler duidelijk of worden gaandeweg
-                        aan de speler aangeleerd. De core mechanics, later uitvoeriger besproken, zijn gamemechanics
-                        die het meest invloed hebben op wat er gebeurt in het spel. Het heeft invloed op bijna alle
-                        elementen in de game.”</strong> (ESF, 2014)</p>
-    
-                <p class="cbottom2 regular italic white spacing">Wat het ESF hier zegt slaat eigenlijk meteen de
-                    hamer op de
-                    nagel, als je namelijk naar huidige topsellers in de game industrie, dan zul je al snel zien dat
-                    deze allemaal deze twee onderdelen gebruiken en naleven. In het masterpiece van eerst,
-                    NieR:Automata, is dit ook het geval, maar zij geven er net een beetje een eigen draai aan. Je
-                    start namelijk met de normale regels en mechanics die je in het begin leert, maar bij bijna elk
-                    nieuw gebied of stuk van het verhaal komen er weer nieuwe regels of mechanics bij kijken.
-                    Hierdoor maken zij gebruik van de twee onderdelen maar ze zorgen ervoor dat je nooit klaar bent
-                    met leren.</p>
-                <div class="clear"></div>
-            </div>
-            <div class="clear"></div>
-        </div>
-        <div class="pokeball n-c">
+        <section id="cutscene">
             <div class="container">
-                <section class="middle1">
-                    <h6 class="subtitle white">World-Building</h6>
-                    <p class="bold italic white spacing">Wat zijn nou de onderdelen die echt van belang zijn voor
+                <h2>The First Cutscene</h2>
+                <div class="f-right">
+                    <p class="paragraph1 spacing">Elk verhaal begint bij de basics en hetzelfde geld voor
+                        ons
+                        masterpiece, bij het maken van een game komen multidisciplinaire teams kijken, maar
+                        multidisciplinariteit wat is dat eigenlijk?</p>
+                    <div class="clear"></div>
+                    <p class="paragraph2 spacing">Heel eenvoudig, multidisciplinariteit betekent dat
+                        verschillende
+                        disciplines samenkomen voor een gezamenlijk eindproduct. Maar wat betekent dit nou voor ons
+                        masterpiece? Onze games?</p>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+                <div class="f-left">
+                    <p class="paragraph3 spacing">De ontwikkeling van een goede gamer doorloopt exact
+                        dezelfde stappen als de ontwikkeling van elk goed design. Dit zijn de drie ontwerp niveaus,
+                        namelijk: Het artefact, de praxis en de betekenis (Kennisclips DR, Buchanan, 2021). Het artefact
+                        is het product zelf, in ons geval de game, dan moet je denken aan onderdelen als wat de
+                        eigenschappen van de game zijn. </p>
+                    <p class="paragraph3 spacing">De praxis is hoe het product gebruikt wordt in de praktijk,
+                        dus
+                        hoe willen we dat onze game gespeeld wordt. De betekenis is hoe je wilt dat je product gezien
+                        wordt of welke link de consumenten eraan geven. Wij gebruiken de betekenis om te kijken wat de
+                        consument belangrijk vindt in een game om hierop de game te baseren.</p>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+                <img class="gamer f-right" src="img/2worlds7.jpg" alt="tunnel">
+                <div class="clear"></div>
+                <div class="f-right">
+                    <p class="paragraph4 spacing">Maar hoe ziet dit dan nou in een game uit? Het <a class="link"
+                            href="https://esfgameon.winstonwolfe.be/over-esf/">ESF</a> (Europees
+                        Sociaal Fonds) heeft hier een goed artikel voor
+                        dat gaat over de structuur van games. Volgens het ESF heeft een game twee onderdelen nodig,
+                        namelijk: <strong class="quote">“Een game bestaat uit regels (rules) en
+                            mechanics. De regels van een spel zijn meestal voor een speler duidelijk of worden gaandeweg
+                            aan de speler aangeleerd. De core mechanics, later uitvoeriger besproken, zijn gamemechanics
+                            die het meest invloed hebben op wat er gebeurt in het spel. Het heeft invloed op bijna alle
+                            elementen in de game.”</strong> (ESF, 2014)</p>
+
+                    <p class="paragraph5 spacing">Wat het ESF hier zegt slaat eigenlijk meteen de
+                        hamer op de
+                        nagel, als je namelijk naar huidige topsellers in de game industrie, dan zul je al snel zien dat
+                        deze allemaal deze twee onderdelen gebruiken en naleven. In het masterpiece van eerst,
+                        NieR:Automata, is dit ook het geval, maar zij geven er net een beetje een eigen draai aan. Je
+                        start namelijk met de normale regels en mechanics die je in het begin leert, maar bij bijna elk
+                        nieuw gebied of stuk van het verhaal komen er weer nieuwe regels of mechanics bij kijken.
+                        Hierdoor maken zij gebruik van de twee onderdelen maar ze zorgen ervoor dat je nooit klaar bent
+                        met leren.</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <div id="pokeball">
+            <div class="container">
+                <section id="middle1">
+                    <h2>World-Building</h2>
+                    <p class="paragraph1 spacing">Wat zijn nou de onderdelen die echt van belang zijn voor
                         een
                         goede
                         game en in ons geval, ons masterpiece? Wat gaan we hiervoor nodig hebben?</p>
-                    <p class="semibold white spacing">Om nu weer terug te vallen naar het maken van een goed
+                    <p class="paragraph2 spacing">Om nu weer terug te vallen naar het maken van een goed
                         masterpiece,
                         gaan we eerst kijken hoe we de drie onderwerpen van eerst nou moeten gebruiken. We weten
                         namelijk
                         dat er regels en mechanics bij komen kijken, maar dit is niet alles wat daarbij hoort.</p>
-                    <p class="semibold white spacing">Een goed design en dus ook een goede game komen namelijk tot
+                    <p class="paragraph3 spacing">Een goed design en dus ook een goede game komen namelijk tot
                         stand wanneer de drie onderwerpen samen komen in een product. Wat hoort er dan nou eigenlijk
                         in deze onderwerpen te komen? Dat is waar we weer terugvallen op de multidisciplinariteit
                         (Kennisclips DR, 2021), om het artefact te maken zijn er namelijk meerdere disciplines
@@ -142,15 +144,15 @@
                         er zijn ook nog andere uitdagingen zoals doelgerichte deskundigen.
                     </p>
                 </section>
-                <img class="gamer2" src="img/2worlds1.JPG" alt="forest">
-                <section class="middle2">
-                    <p class="regular black spacing">Een goed voorbeeld hiervan komt uit een artikel over Alternate
+                <img src="img/2worlds1.jpg" alt="forest">
+                <section id="middle2">
+                    <p class="paragraph4 spacing">Een goed voorbeeld hiervan komt uit een artikel over Alternate
                         Reality
                         Games die worden ingezet voor educatieve doelen van Renée Filius. Filius heeft het hier over
                         de
                         ARG’s om informatie over te brengen aan studenten en nieuwe informatiebronnen hiermee te
                         creëren. Er
-                        komt ook hier weer genoeg bij kijken, namelijk: <strong class="extrabold italic black">“Naast
+                        komt ook hier weer genoeg bij kijken, namelijk: <strong class="quote">“Naast
                             ontwerpers zijn onderwijskundigen nodig om te zorgen dat de inhoud van de ARG aansluit
                             bij
                             de
@@ -160,7 +162,7 @@
                         (Filius,
                         2009)
                     </p>
-                    <p class="regular italic black spacing">Elk soort game en elk soort design heeft dus zijn eigen
+                    <p class="paragraph5 spacing">Elk soort game en elk soort design heeft dus zijn eigen
                         waardes
                         en ook zijn eigen benodigheden. Bij dit soort educatieve games is het dus vooral belangrijk
                         dat
@@ -171,23 +173,22 @@
                 </section>
             </div>
         </div>
-        <div class="triangle1 n-c">
+        <section id="triangle1">
             <div class="container">
-                <h6 class="subtitle black hstory">The Main Story</h6>
-                <img class="emberglitch" src="img/emberglitch.png" alt="emberglitch">
-                <section class="f-left pstory">
-                    <p class="bold italic black spacing">Er is een vraag die altijd opnieuw en opnieuw gesteld
+                <h2>The Main Story</h2>
+                <section>
+                    <p class="paragraph1 spacing">Er is een vraag die altijd opnieuw en opnieuw gesteld
                         blijft
-                        worden, de vraag: <strong class="extrabold italic black">“Waarom hebben games zo veel
+                        worden, de vraag: <strong class="quote">“Waarom hebben games zo veel
                             invloed op
                             onze huidige generaties, en welke verschillende onderdelen zorgen hiervoor?”</strong>
                         Hiervoor
                         schakel ik een player 2 in, want de player 2 genaamd Simon van Strijp, een van de drie
                         eigenaren
                         van
-                        de game studio <a class="extrabold underline black" href="https://emberglitch.com/#%20">Ember
+                        de game studio <a class="link" href="https://emberglitch.com/#%20">Ember
                             Glitch</a>, weet hier net iets meer over.</p>
-                    <p class="regular black spacing">Simon is een mede-eigenaar van de game studio Ember Glitch die
+                    <p class="paragraph2 spacing">Simon is een mede-eigenaar van de game studio Ember Glitch die
                         was
                         opgericht in 2017 net nadat zijn vrienden en hij waren afgestudeerd. De studio is tot stand
                         gekomen
@@ -196,7 +197,7 @@
                         opgericht.
                     </p>
 
-                    <p class="semibold black spacing"><strong class="italic black">“Games zijn superduur om te
+                    <p class="paragraph3 spacing"><strong class="quote">“Games zijn superduur om te
                             maken”,
                             “Niet
                             elke studio van 5 man heeft een audio designer”, “Tijd is budget”</strong>, in
@@ -207,7 +208,7 @@
                         vroeger dus ook veel makkelijker een goede game maken met minder man en een kleiner budget,
                         want er was niet al te veel waar aan je moest denken. </p>
 
-                    <p class="regular black spacing pstory2">Momenteel als je een goede game wilt maken dan heb
+                    <p class="paragraph4 spacing">Momenteel als je een goede game wilt maken dan heb
                         je
                         verschillende
                         mensen nodig die goed zijn in verschillende disciplines. Je hebt namelijk een goede
@@ -218,7 +219,7 @@
                         niet
                         ook
                         te denken aan een persoon die een goed verhaal kan maken voor je game!</p>
-                    <p class="regular italic black spacing pstory2">Juist doordat games zoveel verschillende
+                    <p class="paragraph5 spacing">Juist doordat games zoveel verschillende
                         disciplines
                         gebruiken
                         en alles mooi samen laten komen, is precies de reden waardoor deze ook zoveel invloed
@@ -230,24 +231,23 @@
                         verwacht
                         en doordat alles zo mooi samenwerkt wordt het opgeleverd op een zilveren plateau.</p>
                 </section>
-                <img class="simon" src="img/simon.JPG" alt="simon">
+                <img id="emberglitch" src="img/emberglitch.png" alt="emberglitch">
+                <img id="simon" src="img/simon.jpg" alt="simon">
             </div>
-        </div>
-        <div class="triangle2 n-c">
-        </div>
-
-        <div class="rupee n-c">
+        </section>
+        <div class="triangle2 n-c"></div>
+        <div id="rupee">
             <div class="container">
-                <div class="trleft"></div>
-                <h6 class="subtitle black htest">Test Runs</h6>
-                <div class="trright"></div>
-                <section class="rupeecentre">
-                    <p class="bold italic white spacing divider">De laatste phases van ons masterpiece zijn
+                <div id="trleft"></div>
+                <h2>Test Runs</h2>
+                <div id="trright"></div>
+                <section id="rupeecentre">
+                    <p class="paragraph1 spacing">De laatste phases van ons masterpiece zijn
                         begonnen,
                         maar deze zijn nog even belangrijk, want hoe wordt ons eindproduct beïnvloed door de
                         kwaliteit
                         van het multidisciplinaire team erachter?</p>
-                    <p class="semibold white spacing divider">Het eindproduct zal altijd door meerdere onderdelen
+                    <p class="paragraph2 spacing">Het eindproduct zal altijd door meerdere onderdelen
                         beïnvloed worden, namelijk zowel het team erachter maar ook door de consument. Hiervoor
                         kunnen wij refereren naar SCOT (Social Construction of Technology (Kennisclips DR, W.
                         Bijker, 2021)), het SCOT zegt namelijk dat technologie geen natuurkracht is en dat het dus
@@ -256,14 +256,14 @@
                         hetzelfde ook voor games. De consument kiest welke genres en wat voor een soort type games
                         populair zijn, het is daarna aan de designers om met deze flow mee te gaan, of juist er
                         tegenin proberen te gaan.</p>
-                    <p class="regular white spacing">Een artikel over computerwetenschap en technologie heeft nog
+                    <p class="paragraph3 spacing">Een artikel over computerwetenschap en technologie heeft nog
                         een
                         ander kritieke factor gevonden voor het succes van onze masterpiece, namelijk: <strong
-                            class="extrabold italic white">“More specifically, team configuration and management are
+                            class="quote">“More specifically, team configuration and management are
                             considered critical to the success of any game development project. Game development
                             requires intensive team management.”</strong> (Springer, 2016)</p>
-                    <img class="gamer3" src="img/2worlds2and3.png" alt="lake">
-                    <p class="regular white spacing dividerimg">Het samenstellen van je team is een van de eerste
+                    <img src="img/2worlds2and3.png" alt="lake">
+                    <p class="paragraph4 spacing dividerimg">Het samenstellen van je team is een van de eerste
                         stappen die je doorgaat, maar dit is ook meteen een van de belangrijkste stappen. Zoals
                         Springer
                         vermeldt, game development heeft intensieve team management nodig want elk individu is beter
@@ -273,7 +273,7 @@
                         teamleden die van het genre afweten maar vooral leden die bezig zijn met sounddesign en
                         worlddesign. Bij een horrorgame zijn de grootste factors namelijk hoe “eng” de muziek en
                         geluiden zijn en hoe de wereld om hen heen hieraan meespeelt en uitziet.</p>
-                    <p class="regular italic white spacing"><strong class="extrabold italic white">“Modern game
+                    <p class="paragraph5 spacing"><strong class="quote">“Modern game
                             development requires the effort of a team of skilled professionals to integrate
                             multimedia
                             content and complex computer software.”</strong> (Maxim, B. R., Ridgway, B., 2007) Door
@@ -283,7 +283,7 @@
                         complexe
                         programma’s. Dit valt ook goed terug te zien want alle programma’s voor alle soorten
                         development
-                        zijn de laatste paar jaar zo veel verbeterd. Kijk bijvoorbeeld naar de <a class="bold underline white"
+                        zijn de laatste paar jaar zo veel verbeterd. Kijk bijvoorbeeld naar de <a class="link"
                             href="https://www.adobe.com/nl/">adobe</a> programma’s,
                         deze
                         zijn vrij toegankelijk en het zijn hele handige tools om van alles te maken. Nu zijn game
@@ -294,30 +294,30 @@
             </div>
         </div>
         <div class="container">
-            <section class="endproductleft">
-                <h6 class="endproduct black">The Endproduct, The Masterpiece</h6>
-                <img class="endzelda" src="img/ending.png" alt="endzelda">
-                <p class="semibold black spacing">Een goede game, oftewel een goed masterpiece, kunnen wij
+            <section id="endproductleft">
+                <h2>The Endproduct, The Masterpiece</h2>
+                <img src="img/ending.png" alt="endzelda">
+                <p class="paragraph4 spacing">Een goede game, oftewel een goed masterpiece, kunnen wij
                     aanschouwen als een multidisciplinair design door al deze verschillende aspecten die samen
                     komen. Aan het eind van de dag, als de consument de game speelt, dan krijg deze op meerdere
                     manieren entertainment en informatie en dit was nooit gelukt als alles apart was geweest.
                 </p>
-                <p class="regular italic black spacing">Nu de final boss is verslagen staat er niet meer veel te
+                <p class="paragraph5 spacing">Nu de final boss is verslagen staat er niet meer veel te
                     doen, we kunnen zelf nog reflecteren wat wij van het hele proces vonden en wat jullie als lezers
                     van deze tekst ervaarden. Zelf kies ik er toch echt voor om NieR:Automata nog een keer op te
                     starten, om te kijken of ik misschien toch niet een ander einde had kunnen krijgen, voor mij in
                     deze tekst, was dit echter wel het einde.
                 </p>
             </section>
-            <section class="endproductright">
-                <p class="extrabold italic black spacing">Daar zijn we dan, eindelijk aan het einde met een veel
+            <section id="endproductright">
+                <p class="paragraph1 spacing">Daar zijn we dan, eindelijk aan het einde met een veel
                     beter blik op ons uiteindelijke masterpiece. Nu dat we het hebben gehad over de
                     “behind-the-scenes” van game design en de betekenissen van meerdere aspecten gehad hebben, is
                     het tijd om de final boss te verslaan en hier een einde aan te maken.</p>
-                <p class="regular black spacing">Een goede game heeft dus echt heel veel verschillende onderdelen
+                <p class="paragraph2 spacing">Een goede game heeft dus echt heel veel verschillende onderdelen
                     nodig zoals de verschillende niveaus maar ook de SCOT. Al deze onderdelen spelen een rol in het
                     groter geheel maar de belangrijkste hierin is dan toch echt de verschillende disciplines.</p>
-                <p class="regular black spacing">De reden waarom Marvin nu nog altijd achter de pc zit en er ook nog
+                <p class="paragraph3 spacing">De reden waarom Marvin nu nog altijd achter de pc zit en er ook nog
                     een tijd achter gaat blijven, komt allemaal door dit multidisciplinaire principe. Verschillende
                     disciplines van verschillende professionals komen samen in een eindproduct, waardoor alle goede
                     onderdelen elkaar complimenteren.</p>
@@ -329,23 +329,23 @@
             <div class="help2">
                 <a href="https://www.facebook.com/"><img class="facebook" src="img/facebook.png" alt="facebook"></a>
                 <a href="https://twitter.com/"><img class="twitter" src="img/twitter.png" alt="twitter"></a>
-                <a href="https://www.instagram.com/"><img class="insta" src="img/instagram logo.png" alt="insta"></a>
+                <a href="https://www.instagram.com/"><img class="insta" src="img/instagramlogo.png" alt="insta"></a>
                 <a href="https://www.twitch.tv/"><img class="twitch" src="img/twitch.png" alt="twitch"></a>
-                <p class="improve white">Help us improve!</p>
+                <p class="improve">Help us improve!</p>
             </div>
         </div>
         <div class="contactinfo">
-            <p class="extrabold italic white underline spacing">Contact info</p>
-            <p class="regular white spacing">NerdNews@gmail.com</p>
-            <p class="regular white spacing">The Netherlands, Limburg</p>
-            <p class="regular white spacing">6461 VW, Bockstraat 10</p>
-            <p class="regular white spacing">Kerkrade</p>
+            <p class="link">Contact info</p>
+            <p>NerdNews@gmail.com</p>
+            <p>The Netherlands, Limburg</p>
+            <p>6461 VW, Bockstraat 10</p>
+            <p>Kerkrade</p>
         </div>
         <div class="links">
-            <div class="extrabold italic underline spacing"><a class="white" href="#index.html#news">News</a></div>
-            <div class="extrabold italic underline spacing"><a class="white" href="#">Merch</a></div>
-            <div class="extrabold italic underline spacing"><a class="white" href="#">About</a></div>
-            <div class="extrabold italic underline spacing"><a class="white" href="#">Contact</a></div>
+            <div class="link"><a href="index.html#news">News</a></div>
+            <div class="link"><a href="#">Merch</a></div>
+            <div class="link"><a href="#">About</a></div>
+            <div class="link"><a href="#">Contact</a></div>
         </div>
     </footer>
 </body>
